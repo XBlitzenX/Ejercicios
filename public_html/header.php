@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Este archivo permite añadir a index.php el header -->
 <header class="flex-container">
     <h1 class="flex-item6" style="background-image: url('images/banner.png'); background-repeat: no-repeat;  background-position: center;"></h1>
     <p class="flex-item7" style="background-image: url('images/logojao.PNG'); background-repeat: no-repeat; background-size: 100% 100%; background-position: center;"></p>

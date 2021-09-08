@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!-- Esta sección contiene lo mismo que index.html pero incluyendo el header y footer como archivos php separados -->
 <html>
     <head>
         <title>Tasca M2</title>
@@ -35,6 +35,7 @@
     </head>
 
     <body>
+        <!-- Aquí se incluye el header desde header.php -->
         <?php
         include 'header.php';
         ?>
@@ -78,7 +79,7 @@
                 <button type="button" style="position: absolute; top: 81.8%; left: 72.68%;">Ver mas</button> 
             </aside>
         </main>
-  
+        <!-- Aquí se añade el footer de la página -->
        <?php
         include 'footer.php';
         ?>

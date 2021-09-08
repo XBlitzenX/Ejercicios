@@ -3,10 +3,12 @@
 <html>
     <head>
         <title>Tasca M2</title>
+        <!-- Empezamos cargando la hoja de estilos CSS y las fuentes que queremos usar -->
         <link rel="stylesheet" href="./styles/estilos.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
         <style>
+            /* Definimos las características de la fuente en cada sección de la página web */
             section {
             font-family: "Audiowide", sans-serif;
             color:white;
@@ -35,16 +37,19 @@
     </head>
 
     <body>
+        <!-- Utilizamos flex containers para distribuir el espacio del header, los cuales definimos en estilos.css -->
         <header class="flex-container">
             <h1 class="flex-item6" style="background-image: url('images/banner.png'); background-repeat: no-repeat;  background-position: center;"></h1>
             <p class="flex-item7" style="background-image: url('images/logojao.PNG'); background-repeat: no-repeat; background-size: 100% 100%; background-position: center;"></p>
             <ul class="flex-container">
+                <!-- Estos 3 flex-item son similares pero cambian en ubicación, por eso tienen una denominación similar -->
                 <li class="flex-item8-1" style="background-image: url('images/iconofb.png'); background-size: 100% 100%;"></li>
                 <li class="flex-item8-2" style="background-image: url('images/iconotw.png'); background-size: 100% 100%;"></li>
                 <li class="flex-item8-3" style="background-image: url('images/iconotwitch.png'); background-size: 100% 100%;"> </li>
             </ul>
         </header>
         <nav>
+            <!-- Añadimos la barra de navegación como 5 containers iguales pero con distinto contenido -->
             <ul class="flex-container">
                 <li class="flex-item5">Opcion 1</li>
                 <li class="flex-item5">Opcion 2</li>
@@ -54,6 +59,7 @@
             </ul>
         </nav>
         <section>
+            <!-- Esta sección contiene las imágenes de cabecera -->
             <ul class="flex-container">
                 <li class="flex-item" style="background-image: url('images/paisaje1.png'); background-size: 100% 100%;">Paisajes de Mexico</li><!-- Aislar el texto del button y mover la posición del button con margin-top: y margin-left: -->
                 <li class="flex-item" style="background-image: url('images/paisaje2.jpg'); background-size: 100% 100%;">Paisajes de Japon</li>
@@ -63,7 +69,7 @@
           <button type="button" style="position: absolute; top: 38%; left: 56.65%;">Ver</button> 
           <button type="button" style="position: absolute; top: 38%; left: 74.15%;">Ver</button> 
         </section>
-           
+        <!-- Este código siguiente es el cuerpo de la página que contiene las "noticias" -->
         <main class="flex-container">
             <aside>
                 <div class="flex-item2" style="text-align:center;">Mejores parajes<br>de playa</div>
@@ -84,7 +90,7 @@
                 <button type="button" style="position: absolute; top: 81.8%; left: 72.68%;">Ver mas</button> 
             </aside>
         </main>
-  
+        <!-- El siguiente código es el footer de la página -->
        <footer class="flex-container">
            <p class="flex-item4">Datos de contacto:<br>Correo electronico: javiand96@gmail.com<br><i class="far fa-copyright"></i> 2021 Ningun derecho reservado ya que todo el contenido de la pagina es sacado de google imagenes</p>
        </footer>

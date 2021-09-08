@@ -1,6 +1,7 @@
+/* Primero indicamos cual va ser el color de fondo de la página y del header principal */
 body {background-color: #e6e7e9;}
 h1 {background-color: #4b4b4d; width: 1000px; height: 120px; margin: 20px 460px 0px 460px;}
-
+/* Ahora definimos las características de cada flex-container/item según su distribución */
 .flex-container {
     display: flex;
     flex-flow: row nowrap;
@@ -73,7 +74,7 @@ h1 {background-color: #4b4b4d; width: 1000px; height: 120px; margin: 20px 460px 
   height: 60px;
   margin-top: 0px;
 }
-
+/* Queremos que estos 3 flex sean similares pero cambie ligeramente su posición, los denominamos así para que se diferencien más fácilmente */
 .flex-item8-1 {
   position: absolute;
   top: 69px;
